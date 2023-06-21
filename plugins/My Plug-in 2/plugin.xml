@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+        id="myplugin2"
+        name="My Plug-in 2"
+        version="1.0"
+        provider-name="No Magic"
+        class="myplugin2.MyPlugin2">
+
+    <requires>
+        <api version="1.2"/>
+    </requires>
+
+    <runtime>
+        <library name="myplugin2.jar"/>
+    </runtime>
+</plugin>
